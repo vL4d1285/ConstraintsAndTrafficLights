@@ -100,26 +100,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gIz-yT-G2T">
-                                <rect key="frame" x="16" y="10" width="382" height="384"/>
+                                <rect key="frame" x="16" y="20" width="382" height="378.5"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TAs-i7-Wbm">
-                                <rect key="frame" x="16" y="409" width="382" height="409"/>
+                                <rect key="frame" x="16" y="418.5" width="382" height="403.5"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0bj-2A-NU8"/>
                         <color key="backgroundColor" systemColor="separatorColor"/>
                         <constraints>
-                            <constraint firstItem="gIz-yT-G2T" firstAttribute="top" secondItem="0bj-2A-NU8" secondAttribute="top" constant="10" id="C87-Bi-rfY"/>
-                            <constraint firstItem="TAs-i7-Wbm" firstAttribute="height" secondItem="gIz-yT-G2T" secondAttribute="height" multiplier="1.06562" id="EUb-6T-WgE"/>
-                            <constraint firstItem="0bj-2A-NU8" firstAttribute="trailing" secondItem="TAs-i7-Wbm" secondAttribute="trailing" constant="16" id="Lvc-pH-ZqE"/>
-                            <constraint firstItem="gIz-yT-G2T" firstAttribute="width" secondItem="TAs-i7-Wbm" secondAttribute="width" id="N8L-ND-0ik"/>
-                            <constraint firstItem="TAs-i7-Wbm" firstAttribute="bottom" secondItem="0bj-2A-NU8" secondAttribute="bottom" constant="10" id="OqL-vX-obv"/>
-                            <constraint firstItem="0bj-2A-NU8" firstAttribute="trailing" secondItem="gIz-yT-G2T" secondAttribute="trailing" constant="16" id="QK5-Rw-IxY"/>
-                            <constraint firstItem="TAs-i7-Wbm" firstAttribute="top" secondItem="gIz-yT-G2T" secondAttribute="bottom" constant="15" id="V86-sl-vMo"/>
-                            <constraint firstItem="TAs-i7-Wbm" firstAttribute="leading" secondItem="0bj-2A-NU8" secondAttribute="leading" constant="16" id="dIY-SZ-vpe"/>
-                            <constraint firstItem="gIz-yT-G2T" firstAttribute="leading" secondItem="0bj-2A-NU8" secondAttribute="leading" constant="16" id="nxI-2N-6Ad"/>
+                            <constraint firstItem="gIz-yT-G2T" firstAttribute="leading" secondItem="0bj-2A-NU8" secondAttribute="leading" constant="16" id="2FS-la-cYa"/>
+                            <constraint firstItem="gIz-yT-G2T" firstAttribute="top" secondItem="0bj-2A-NU8" secondAttribute="top" constant="20" id="Bh9-k2-VN0"/>
+                            <constraint firstItem="TAs-i7-Wbm" firstAttribute="height" secondItem="gIz-yT-G2T" secondAttribute="height" multiplier="1.06692" id="EDh-eq-f44"/>
+                            <constraint firstItem="0bj-2A-NU8" firstAttribute="trailing" secondItem="gIz-yT-G2T" secondAttribute="trailing" constant="16" id="Iou-jG-nx3"/>
+                            <constraint firstAttribute="bottom" secondItem="TAs-i7-Wbm" secondAttribute="bottom" constant="20" id="QrN-9h-vRd"/>
+                            <constraint firstItem="0bj-2A-NU8" firstAttribute="trailing" secondItem="TAs-i7-Wbm" secondAttribute="trailing" constant="16" id="X19-nZ-Xua"/>
+                            <constraint firstItem="TAs-i7-Wbm" firstAttribute="leading" secondItem="0bj-2A-NU8" secondAttribute="leading" constant="16" id="f7Z-Tm-YS2"/>
+                            <constraint firstItem="TAs-i7-Wbm" firstAttribute="top" secondItem="gIz-yT-G2T" secondAttribute="bottom" constant="20" id="xqs-Zx-is4"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="l0d-zx-vRB"/>
