@@ -7,10 +7,6 @@
 
 import UIKit
 
-enum Colors {
-    case red, orange, green
-}
-
 class TrafficLightsViewController: UIViewController {
 
     @IBOutlet var redLightOutlet: UIView!
@@ -64,4 +60,10 @@ class TrafficLightsViewController: UIViewController {
             currentColor = .red
         }            
     } 
+}
+
+extension TrafficLightsViewController {
+    private enum Colors {
+        case red, orange, green
+    }
 }
