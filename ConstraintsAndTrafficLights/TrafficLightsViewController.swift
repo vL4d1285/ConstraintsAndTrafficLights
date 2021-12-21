@@ -62,21 +62,6 @@ class TrafficLightsViewController: UIViewController {
             greenLightOutlet.alpha = 1
         
             currentColor = .red
-        }
-        
-        
-        
-    }
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-
+        }            
+    } 
 }
